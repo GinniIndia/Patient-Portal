@@ -1,0 +1,13 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^index/?$    index.php [NC,L]    
+RewriteRule    ^about-hospital-project/?$    aboutus.php [NC,L]
+RewriteRule    ^login-to-your-account/?$    login1.php [NC,L]      
+RewriteRule    ^user-profile/?$    successlogin.php [NC,L]  
+RewriteRule    ^AIIMS-Delhi/?$    aiims.php [NC,L] 
+RewriteRule    ^User-Profile/?$    successlogin.php [NC,L] 
+
+RewriteRule    ^Query-at-Admin/?$    comment.php [NC,L] 
+
+RewriteRule     ^[a-zA-Z-_]+/([0-9]+)/?$    aiims.php?hid=$1 [NC,L] 
+RewriteRule    ^Register-at-Patient-Portal/?$    register.php [NC,L] 
