@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Patient Portal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="css/aos.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <style>
+
+            .rnew{
+
+                width: 60px;
+                height: 22px;
+                background-color:#0066cc;
+                -ms-transform: rotate(10deg); /* IE 9 */
+                -webkit-transform: rotate(20deg); /* Safari 3-8 */
+                transform: rotate(50deg);
+                position:relative;
+                right:-46px;
+            }
+            .bbton{
+                background:#0066cc;color:white;padding:3px 5px 3px 5px;border-color: #0066cc;
+            }
+            .bbton:hover{
+                background:green;border-color:green;
+            }
+        </style>
+    </head>
+    <body style="font-family: 'Muli', sans-serif;">
+        <div class="container-fluid">
+
+            <!---------------------start row 1---------->
+            <div class="row hidden-xs">
+
+                <div class="col-md-4" >
+                    <div class="col-md-10"></div>
+                    <div class="col-md-2 rnew" ></div>
+                </div>
+
+
+                <div class="col-md-8" style="background: #0066cc;">
+                    <div class="col-md-12" style="padding-top:10px;padding-bottom: 10px;">
+                        <span style="border-left:.5px solid blue;">
+                            <span style="border-left:.7px solid blue;">
+                                <a class="row1">English</a>
+
+                                <a class="row1">Have a question?Contact us..</a>
+
+                                <a style="color:white;cursor:pointer;padding-right:8px;padding-left:8px;"> <span><i class="fa fa-phone" data-aos="fade-down" aria-hidden="true"></i></span>&nbsp;<a style="cursor:pointer;color:white;padding-right:8px;border-right:1px solid white;" data-aos="fade-up">+91-8295954475</a></a> 
+
+                                <span class="row1"><i class="fa fa-facebook" data-aos="fade-up" aria-hidden="true"></i></span>
+
+                                <span class="row1"><i class="fa fa-twitter" data-aos="fade-down" aria-hidden="true"></i></span>
+
+                                <span class="row1"><i class="fa fa-google-plus" data-aos="fade-up" aria-hidden="true"></i></span>
+                                </div>
+                                </div>
+
+
+                                </div>
+
+                                <!-----------end 1-------->
+
+                                <!---------start 2-------->
+
+                                <div class="row" id="header">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <nav class="navbar" style="z-index: 999999;" >
+                                            <div class="container-fluid col-md-10 col-md-offset-1" style="padding-bottom: 15px;padding-top: 15px;">
+                                                <!-- Brand and toggle get grouped for better mobile display -->
+                                                <div class="navbar-header ">
+
+
+                                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="border-color:#0066cc;">
+                                                        <span class="sr-only">Toggle navigation</span>
+                                                        <span class="icon-bar" style="background:#0066cc;"></span>
+                                                        <span class="icon-bar" style="background:#0066cc;"></span>
+                                                        <span class="icon-bar" style="background:#0066cc;"></span>
+                                                    </button>
+
+
+                                                    <img src="image/logo2.png" class="img-responsive" style="width:150px" data-aos="fade-right">
+
+
+                                                </div>
+
+                                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                    <ul class="nav navbar-nav navbar-right" data-aos="fade-up">
+                                                        <li><a href="mock.html" style="font-size:20px;" class="alink" >Home <span class="sr-only">(current)</span></a></li>
+                                                        <li><a href="aboutus.html" style="font-size:20px;" class="alink">About us</a></li>
+
+
+
+                                                        <li><a href="login1.html" style="font-size:20px;" class="alink">Login</a></li>
+                                                        <li><a href="register1.html" style="font-size:20px;" class="alink">Registration</a></li>
+                                                    </ul>
+
+                                                    <ul class="nav navbar-nav navbar-right">
+
+                                                    </ul>
+                                                </div><!-- /.navbar-collapse -->
+                                            </div><!-- /.container-fluid -->
+                                        </nav>
+
+                                    </div>
+                                </div>
+                                <!-----------end navbar------------->
+
+                                <!--------------start -------------->
+
+                                <div class="row" style="background-image:url(image/hospital11.jpg);background-attachment: fixed;position:relative;top:20px;">
+                                    <div class="col-md-4"></div>
+
+                                    <div class="col-md-4"style="color:white;padding-bottom: 40px;padding-top: 40px;">
+                                        <h3 align="center">Login Portal</h3>
+                                        <form target="login.php">
+                                            <h4>UserName</h4>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user-o"></i></span><input type="email" class="form-control" id="email" name="email" required>
+                                            </div>
+                                            <h4>Password</h4>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-key"></i></span><input type="password" class="form-control" id="pwd" name="pwd" required>
+                                            </div>
+                                            <p></p>
+                                            <input type="submit" class="bbton">
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!----------end------------->
+
+                                <!-----------footer--------->
+
+                                <div class="row" style="background:black;position:relative;top:150px;" >
+                                    <div class="col-md-12">
+                                        <div class="col-md-10 col-md-offset-1" style="padding-bottom:20px;" >
+                                            <div class="col-md-4" >
+                                                <h3  style="border-bottom: 1px solid #fff;;color:white;" >Important Links</h3>
+
+
+                                                <a style="color: #fff; font-size: 15px" href="mock.html">Home</a><br>
+
+                                                <a style="color: #fff; font-size: 15px" href="aboutus.html">About us</a><br>
+
+                                                <a style="color: #fff; font-size: 15px" href="login1.html">Login</a><br>
+
+                                                <a style="color: #fff; font-size: 15px"href="register1.html">Registration</a><br>
+
+
+
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h3 style="border-bottom: 1px solid #fff; padding-bottom: 10px;color:white">About us </h3>
+                                                <h5 style="color:white">All about importance of Person Life.Because every life is precious and we are here to protect u from any kind of disease..</h5>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h3 style="border-bottom:1px solid #fff; padding-bottom:10px;color:white;">Contact us </h3>
+                                                <h5 style="color:white;">Mail:info01@gmail.com</h5>
+                                                <h5 style="color:white;">Phone:+91-9050190870</h5>
+                                                <h5 style="color:white;">Mail:info01@gmail.com</h5>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-12">
+
+                                        <div style=";padding-top:10px;;border-top: 1px solid #fff;" align="center" >
+
+                                            <h5 style="color:white;">Copyright &copy 2018.All right Reserved</h5>
+                                        </div>    
+                                    </div>  
+                                </div>
+
+                                <!-----------------end----------->
+
+
+
+                                </div>
+
+
+
+
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                                <script src="js/aos.js"></script>
+                                <script src="js/aos.js.download"></script>
+                                <script>
+                                    AOS.init({
+                                        duration: 3000
+                                    });
+                                </script>
+                                <script>
+                                    // When the user scrolls down 20px from the top of the document, show the button
+                                    window.onscroll = function () {
+                                        scrollFunction()
+
+                                    };
+                                    var header = document.getElementById("header");
+                                    var sticky = header.offsetTop;
+
+                                    function scrollFunction() {
+                                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                            document.getElementById("myBtn").style.display = "block";
+                                        } else {
+                                            document.getElementById("myBtn").style.display = "none";
+                                        }
+                                    }
+
+                                    // When the user clicks on the button, scroll to the top of the document
+                                    function topFunction() {
+                                        document.body.scrollTop = 0;
+                                        document.documentElement.scrollTop = 0;
+                                    }
+                                </script>
+
+                                </body>
+                                </html>
